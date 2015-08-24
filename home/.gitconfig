@@ -1,14 +1,16 @@
+[core]
+	editor = atom --wait
 [user]
-	email = archimedespi3141@gmail.com
-	name = Liam Marshall
+    email = archimedespi3141@gmail.com
+    name = Liam Marshall
 [credential]
-	helper = cache --timeout=3600
+    helper = cache --timeout=3600
 [push]
-	default = simple
+    default = simple
 [alias]
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [color]
     branch = auto
     diff = auto
