@@ -10,3 +10,7 @@ function play_song {
                --restrict-filenames \
                --exec=mplayer "$*"
 }
+
+function open_on_github {
+  firefox `git config --get remote.origin.url`
+}
