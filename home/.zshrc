@@ -19,6 +19,7 @@ export VISUAL="subl -w"
 
 user_mods=(
     'path'
+    'keybinds'
     'random_env'
     'utils'
     'vcsinfo'
