@@ -1,7 +1,7 @@
 [core]
     editor = "subl -w"
 [user]
-    email = archimedespi3141@gmail.com
+    email = liam@cpan.org 
     name = Liam Marshall
 [credential]
     helper = cache --timeout=3600
