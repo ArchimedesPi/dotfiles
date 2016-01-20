@@ -28,8 +28,8 @@ user_mods=(
     'linux'
     )
 
-thirdparty_mods=(
-    'zsh-syntax-highlighting/zsh-syntax-highlighting.zsh')
+#thirdparty_mods=(
+#    'zsh-syntax-highlighting/zsh-syntax-highlighting.zsh')
 
 for module in $user_mods; do
     source $dot_zsh/$module.zsh
