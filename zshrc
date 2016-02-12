@@ -26,6 +26,7 @@ user_mods=(
     'prompt'
     'completions'
     'linux'
+    'ssh'
     )
 
 #thirdparty_mods=(
