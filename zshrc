@@ -14,8 +14,8 @@ setopt share_history # share history between terminals
 
 setopt extendedglob # moar globbing
 
-export EDITOR="subl -w"
-export VISUAL="subl -w"
+export EDITOR="subl3 -w"
+export VISUAL="subl3 -w"
 
 user_mods=(
     'path'
