@@ -39,3 +39,5 @@ done
 for module in $thirdparty_mods; do
     source $dot_zsh/thirdparty_modules/$module
 done
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
