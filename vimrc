@@ -8,6 +8,8 @@ Plug 'majutsushi/tagbar'
 Plug 'scrooloose/syntastic'
 Plug 'rust-lang/rust.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 call plug#end()
 
 set nocompatible
@@ -57,6 +59,8 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
+
+autocmd BufRead,BufNewFile *.md setlocal spell
 
 set lbr
 set tw=500
