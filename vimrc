@@ -10,6 +10,9 @@ Plug 'rust-lang/rust.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'jeaye/color_coded'
+Plug 'elixir-lang/vim-elixir'
 call plug#end()
 
 set nocompatible
