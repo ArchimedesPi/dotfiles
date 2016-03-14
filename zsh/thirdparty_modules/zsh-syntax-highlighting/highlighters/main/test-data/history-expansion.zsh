@@ -1,4 +1,3 @@
-#!/usr/bin/env zsh
 # -------------------------------------------------------------------------------------------------
 # Copyright (c) 2015 zsh-syntax-highlighting contributors
 # All rights reserved.
@@ -28,10 +27,13 @@
 # vim: ft=zsh sw=2 ts=2 et
 # -------------------------------------------------------------------------------------------------
 
-BUFFER='!foo bar !baz'
+ZSH_HIGHLIGHT_STYLES[default]=$unused_highlight
+BUFFER='!foo bar !baz ! ; !'
 
 expected_region_highlight=(
   "1 4 $ZSH_HIGHLIGHT_STYLES[history-expansion]" # !foo
   "6 8 $ZSH_HIGHLIGHT_STYLES[default]" # bar
   "10 13 $ZSH_HIGHLIGHT_STYLES[history-expansion]" # !baz
+  "15 15 $ZSH_HIGHLIGHT_STYLES[default]" # ! (before the semicolon)
+  "19 19 $ZSH_HIGHLIGHT_STYLES[reserved-word]" # ! (after the semicolon)
 )

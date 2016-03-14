@@ -1,4 +1,3 @@
-#!/usr/bin/env zsh
 # -------------------------------------------------------------------------------------------------
 # Copyright (c) 2015 zsh-syntax-highlighting contributors
 # All rights reserved.
@@ -28,8 +27,7 @@
 # vim: ft=zsh sw=2 ts=2 et
 # -------------------------------------------------------------------------------------------------
 
-# without the trailing space, it's highlighted as path_approx (issue #187, issue #204)
-BUFFER='echo; ; '
+BUFFER='echo; ;'
 
 expected_region_highlight=(
   "5 5 $ZSH_HIGHLIGHT_STYLES[commandseparator]" # ;

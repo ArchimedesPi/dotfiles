@@ -1,1 +1,1 @@
-../../../../../../../.zsh/thirdparty_modules/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+zsh-syntax-highlighting.zsh
