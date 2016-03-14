@@ -1,5 +1,5 @@
 [core]
-    editor = "subl -w"
+    editor = "vim"
 [user]
     email = liam@cpan.org 
     name = Liam Marshall
