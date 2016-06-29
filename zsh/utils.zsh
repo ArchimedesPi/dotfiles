@@ -14,3 +14,5 @@ function play_song {
 function open_on_github {
   firefox `git config --get remote.origin.url`
 }
+
+[[ -a ~/github/rupa/z/z.sh ]] && source ~/github/rupa/z/z.sh
