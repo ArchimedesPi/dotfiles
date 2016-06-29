@@ -14,3 +14,10 @@ export PG_OF_PATH=/home/liam/builds/of_v0.9.2_linux64_release
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+if command -v vim >/dev/null 2>&1; then
+else
+    if command -v nvim >/dev/null 2>&1; then
+        alias vim=nvim
+    fi
+fi
