@@ -1,5 +1,5 @@
 [core]
-    editor = "vim"
+    editor = "nvim"
 [user]
     email = liam@cpan.org 
     name = Liam Marshall
@@ -16,3 +16,7 @@
     diff = auto
     interactive = auto
     status = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
