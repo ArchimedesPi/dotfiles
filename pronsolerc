@@ -1,0 +1,16 @@
+set last_window_maximized True
+set last_window_width 812
+set last_window_height 498
+set baudrate 250000
+set build_dimensions 200x200x200-100-100+0
+set extruders 1
+set port /dev/ttyACM0
+set last_temperature 185.0
+set last_sash_position 613
+set total_filament_used 16349.9739004
+set last_bed_temperature 75.0
+set xy_feedrate 3000
+set z_feedrate 300
+set e_feedrate 100
+macro partc_fan_off M42 P23 S0
+macro partc_fan_on M42 P23 S255
