@@ -1,5 +1,6 @@
 [core]
     editor = "nvim"
+	autocrlf = input
 [user]
     email = liam@cpan.org 
     name = Liam Marshall
@@ -20,3 +21,5 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	required = true
+[lfs]
+	batch = true
